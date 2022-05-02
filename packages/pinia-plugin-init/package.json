@@ -27,7 +27,7 @@
 	},
 	"dependencies": {
 		"@snickbit/out": "^2.0.13",
-		"@snickbit/utilities": "3.0.10"
+		"@snickbit/utilities": "3.0.16"
 	},
 	"devDependencies": {
 		"jest": "^27.4.7",
