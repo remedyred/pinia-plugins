@@ -21,7 +21,8 @@
 		"clean": "shx rm -rf dist",
 		"test": "jest",
 		"build": "tsup",
-		"watch": "npm run build -- --watch",
+		"dev": "npm run build -- --sourcemap",
+		"watch": "npm run dev -- --watch",
 		"depcheck": "depcheck",
 		"prod": "npm run build -- --minify"
 	},
