@@ -1,7 +1,7 @@
 {
 	"name": "@snickbit/pinia-plugin-debounce",
 	"description": "Pinia plugin for debouncing actions",
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"license": "MIT",
 	"main": "./dist/index.js",
 	"module": "./dist/index.mjs",
