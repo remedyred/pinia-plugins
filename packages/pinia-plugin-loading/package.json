@@ -1,7 +1,7 @@
 {
 	"name": "@snickbit/pinia-plugin-loading",
 	"description": "Pinia plugin to track loading state of all asynchronous actions",
-	"version": "1.0.8",
+	"version": "1.0.9",
 	"license": "MIT",
 	"main": "./dist/index.js",
 	"module": "./dist/index.mjs",
