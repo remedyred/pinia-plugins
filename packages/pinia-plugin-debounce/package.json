@@ -21,10 +21,10 @@
 		"clean": "shx rm -rf dist",
 		"test": "jest",
 		"build": "tsup",
-		"dev": "npm run build -- --sourcemap",
-		"watch": "npm run dev -- --watch",
+		"dev": "pnpm run build --sourcemap",
+		"watch": "pnpm run dev --watch",
 		"depcheck": "depcheck",
-		"prod": "npm run build -- --minify"
+		"prod": "pnpm run build --minify"
 	},
 	"dependencies": {
 		"debounce": "^1.2.1"
