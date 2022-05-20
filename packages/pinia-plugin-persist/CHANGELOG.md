@@ -1,5 +1,13 @@
 # @snickbit/pinia-plugin-persist Changelog
 
+## 1.0.12
+
+### Patch Changes
+
+- [a5564aa](https://github.com/snickbit/pinia/commit/a5564aa) **fix**:  add catch block
+- [0bf355e](https://github.com/snickbit/pinia/commit/0bf355e) **build**:  remove nx
+- [d04737e](https://github.com/snickbit/pinia/commit/d04737e) **style**:  sort package.json
+
 ## 1.0.11
 
 ### Patch Changes

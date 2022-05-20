@@ -1,5 +1,12 @@
 # @snickbit/pinia-plugin-loading Changelog
 
+## 1.0.11
+
+### Patch Changes
+
+- [0bf355e](https://github.com/snickbit/pinia/commit/0bf355e) **build**:  remove nx
+- [d04737e](https://github.com/snickbit/pinia/commit/d04737e) **style**:  sort package.json
+
 ## 1.0.10
 
 ### Patch Changes

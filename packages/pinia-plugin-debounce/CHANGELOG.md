@@ -1,5 +1,11 @@
 # @snickbit/pinia-plugin-debounce Changelog
 
+## 1.0.11
+
+### Patch Changes
+
+- [d04737e](https://github.com/snickbit/pinia/commit/d04737e) **style**:  sort package.json
+
 ## 1.0.10
 
 ### Patch Changes
