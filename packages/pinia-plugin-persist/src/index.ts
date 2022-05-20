@@ -43,7 +43,9 @@ export default async function ({options, store}: PersistenceParams): Promise<voi
 			await localforage.setItem(config.storageKey, state)
 		}
 
-		localforage.getItem(config.storageKey).then(store.$patch)
+		localforage.getItem(config.storageKey).then(store.$patch).catch(() => {
+			console.warn(`[Persist] Failed to load state from storage`)
+		})
 		await updateStorage()
 		store.$subscribe(() => updateStorage())
 	}
