@@ -16,3 +16,4 @@ bin/
 
 # Keep
 !.git*
+!.eslintrc.json
