@@ -1,5 +1,12 @@
 # @snickbit/pinia-plugin-debounce Changelog
 
+## 1.0.12
+
+### Patch Changes
+
+- [d76d9de](https://github.com/snickbit/pinia/commit/d76d9de) **style**:  heavy code restyling
+- [3f12bf3](https://github.com/snickbit/pinia/commit/3f12bf3) **chore**:  bump dependencies
+
 ## 1.0.11
 
 ### Patch Changes
