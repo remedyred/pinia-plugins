@@ -36,7 +36,7 @@ export default async function({options, store}: PersistenceParams): Promise<void
 			...options.persist
 		}
 
-		const updateStorage = async() => {
+		const updateStorage = async () => {
 			let state = JSON.parse(JSON.stringify(store.$state))
 			if (!isEmpty(config.include)) {
 				state = objectOnly(state, config.include)
