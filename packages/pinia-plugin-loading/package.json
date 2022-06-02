@@ -1,6 +1,6 @@
 {
 	"name": "@snickbit/pinia-plugin-loading",
-	"version": "1.0.16",
+	"version": "1.0.17",
 	"description": "Pinia plugin to track loading state of all asynchronous actions",
 	"license": "MIT",
 	"exports": {
@@ -28,7 +28,7 @@
 		"testEnvironment": "node"
 	},
 	"dependencies": {
-		"@snickbit/utilities": "^3.0.24",
+		"@snickbit/utilities": "^3.0.25",
 		"vue": "^3.2.36"
 	},
 	"devDependencies": {
