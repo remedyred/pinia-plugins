@@ -1,5 +1,12 @@
 # @snickbit/pinia-plugin-persist Changelog
 
+## 1.0.17
+
+### Patch Changes
+
+- [9758f9f](https://github.com/snickbit/pinia/commit/9758f9f) **chore**:  update dependencies
+- [6edd13f](https://github.com/snickbit/pinia/commit/6edd13f) **style**:  lint
+
 ## 1.0.14
 
 ### Patch Changes
