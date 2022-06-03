@@ -1,6 +1,6 @@
 {
 	"name": "@snickbit/pinia-plugin-init",
-	"version": "1.0.17",
+	"version": "1.0.18",
 	"description": "Pinia plugin for running an action when the store is initialized",
 	"license": "MIT",
 	"exports": {
@@ -28,8 +28,8 @@
 		"testEnvironment": "node"
 	},
 	"dependencies": {
-		"@snickbit/out": "^2.0.31",
-		"@snickbit/utilities": "^3.0.25"
+		"@snickbit/out": "^2.0.32",
+		"@snickbit/utilities": "^3.0.26"
 	},
 	"devDependencies": {
 		"jest": "^28.1.0",
