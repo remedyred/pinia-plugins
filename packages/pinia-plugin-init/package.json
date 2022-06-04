@@ -28,14 +28,14 @@
 		"testEnvironment": "node"
 	},
 	"dependencies": {
-		"@snickbit/out": "^2.0.32",
-		"@snickbit/utilities": "^3.0.26"
+		"@snickbit/out": "^2.0.33",
+		"@snickbit/utilities": "^3.0.27"
 	},
 	"devDependencies": {
 		"jest": "^28.1.0",
 		"ts-jest": "^28.0.4",
 		"tsup": "^6.0.1",
-		"typescript": "^4.7.2"
+		"typescript": "^4.7.3"
 	},
 	"engines": {
 		"node": ">= 12"
