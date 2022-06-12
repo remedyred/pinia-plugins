@@ -32,9 +32,9 @@
 		"@snickbit/utilities": "^3.0.27"
 	},
 	"devDependencies": {
-		"jest": "^28.1.0",
+		"jest": "^28.1.1",
 		"ts-jest": "^28.0.4",
-		"tsup": "^6.0.1",
+		"tsup": "^6.1.2",
 		"typescript": "^4.7.3"
 	},
 	"engines": {

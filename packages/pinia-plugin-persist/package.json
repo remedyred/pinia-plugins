@@ -33,11 +33,11 @@
 		"pinia": "^2.0.14"
 	},
 	"devDependencies": {
-		"jest": "^28.1.0",
+		"jest": "^28.1.1",
 		"ts-jest": "^28.0.4",
-		"tsup": "^6.0.1",
+		"tsup": "^6.1.2",
 		"typescript": "^4.7.3",
-		"vue": "^3.2.36"
+		"vue": "^3.2.37"
 	},
 	"engines": {
 		"node": ">= 12"
