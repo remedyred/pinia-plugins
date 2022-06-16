@@ -1,5 +1,13 @@
 # @snickbit/pinia-plugin-init Changelog
 
+## 1.0.19
+
+### Patch Changes
+
+- [fd2efb9](https://github.com/snickbit/pinia/commit/fd2efb9) **chore**:  bump dependencies
+- [4d7e563](https://github.com/snickbit/pinia/commit/4d7e563) **chore**:  bump dependencies
+- [7665064](https://github.com/snickbit/pinia/commit/7665064) **chore**:  bump deps
+
 ## 1.0.16
 
 ### Patch Changes

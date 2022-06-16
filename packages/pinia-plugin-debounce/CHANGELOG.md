@@ -1,5 +1,14 @@
 # @snickbit/pinia-plugin-debounce Changelog
 
+## 1.0.15
+
+### Patch Changes
+
+- [fd2efb9](https://github.com/snickbit/pinia/commit/fd2efb9) **chore**:  bump dependencies
+- [4d7e563](https://github.com/snickbit/pinia/commit/4d7e563) **chore**:  bump dependencies
+- [7665064](https://github.com/snickbit/pinia/commit/7665064) **chore**:  bump deps
+- [4494162](https://github.com/snickbit/pinia/commit/4494162) **chore**:  update dependencies
+
 ## 1.0.14
 
 ### Patch Changes
