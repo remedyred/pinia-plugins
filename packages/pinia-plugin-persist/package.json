@@ -1,6 +1,6 @@
 {
 	"name": "@snickbit/pinia-plugin-persist",
-	"version": "1.0.21",
+	"version": "1.0.22",
 	"description": "Pinia plugin to persist state using LocalForage",
 	"license": "MIT",
 	"exports": {
@@ -28,7 +28,7 @@
 		"testEnvironment": "node"
 	},
 	"dependencies": {
-		"@snickbit/utilities": "^3.1.0",
+		"@snickbit/utilities": "^3.2.0",
 		"localforage": "^1.10.0",
 		"pinia": "^2.0.14"
 	},
