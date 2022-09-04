@@ -6,8 +6,8 @@ export default function({options, store}) {
 		out.debug('[Pinia] Initializing store...', clone(store))
 		try {
 			store[options.init]()
-		} catch (e) {
-			console.error('Error initializing store', e)
+		} catch (error) {
+			console.error('Error initializing store', error)
 		}
 	}
 }

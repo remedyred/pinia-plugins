@@ -6,7 +6,7 @@ export type AsyncFunction<T> = (...args: any[]) => Promise<T>
 export default function({store}) {
 	const _loading = ref([])
 
-	for (let [key, prop] of Object.entries(store)) {
+	for (const [key, prop] of Object.entries(store)) {
 		if (isAsyncFunction(prop)) {
 			store[key] = async function(...args) {
 				const promise = (prop as AsyncFunction<any>).call(this, ...args)
