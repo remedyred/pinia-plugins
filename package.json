@@ -3,18 +3,19 @@
 	"version": "0.0.0",
 	"private": true,
 	"scripts": {
-		"build": "turbo run build",
+		"check": "turbo run build //#lint //#test",
 		"clean": "pnpm run clean:builds && pnpm run clean:modules",
 		"clean:builds": "turbo run clean",
 		"clean:modules": "shx rm -rf **/node_modules",
+		"depcheck": "turbo run depcheck",
 		"dev": "turbo run dev",
-		"fix": "eslint **/*.{ts,json} --cache --color --fix",
-		"index": "turbo run index",
-		"lint": "eslint **/*.{ts,json} --cache --color",
-		"readmes": "readmes",
-		"prerelease": "turbo run prod test fix depcheck readmes",
-		"release": "pnpm run prerelease && lerna publish",
-		"test": "pnpm jest"
+		"docs": "readmes",
+		"fix": "eslint \"**/*.{ts,json,yml,yaml}\" --cache --color --fix",
+		"lint": "eslint \"**/*.{ts,json,yml,yaml}\" --cache --color",
+		"prerelease": "turbo run build docs ///#fix ///#test depcheck",
+		"release": "turbo run release",
+		"release:ci": "turbo run release --concurrency=1",
+		"test": "jest"
 	},
 	"jest": {
 		"noStackTrace": true,

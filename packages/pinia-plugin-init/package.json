@@ -15,11 +15,12 @@
 		"dist"
 	],
 	"scripts": {
-		"build": "tsup",
-		"clean": "shx rm -rf dist",
+		"build": "tsup --minify --dts",
+		"clean": "shx rm -rf ./dist ./.types",
 		"depcheck": "depcheck",
-		"dev": "pnpm run build --sourcemap",
-		"prod": "pnpm run build --minify",
+		"dev": "tsup",
+		"docs": "typedoc src/index.ts --tsconfig ./tsconfig.typedoc.json",
+		"release": "semantic-release",
 		"test": "jest",
 		"watch": "pnpm run dev --watch"
 	},
@@ -39,16 +40,5 @@
 	},
 	"engines": {
 		"node": ">= 12"
-	},
-	"tsup": {
-		"entry": [
-			"src/index.ts"
-		],
-		"clean": true,
-		"dts": true,
-		"format": [
-			"esm",
-			"cjs"
-		]
 	}
 }
