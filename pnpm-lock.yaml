@@ -26,22 +26,18 @@ importers:
       eslint: 8.22.0
       jest: 28.1.3
       shx: 0.3.4
-      ts-jest: 28.0.8_sjejfvfeonwowk2gxhf27e7xsa
+      ts-jest: 28.0.8_c33nnit4udygqehd6spv4v4elu
       turbo: 1.4.3
       typescript: 4.8.2
 
   packages/pinia-plugin-debounce:
     specifiers:
       debounce: ^1.2.1
-      jest: 28.1.3
-      ts-jest: 28.0.8
       tsup: 6.2.3
       typescript: 4.8.2
     dependencies:
       debounce: 1.2.1
     devDependencies:
-      jest: 28.1.3
-      ts-jest: 28.0.8_556mfp7b5dutuj2jcrj5i7zc5q
       tsup: 6.2.3_typescript@4.8.2
       typescript: 4.8.2
 
@@ -49,24 +45,18 @@ importers:
     specifiers:
       '@snickbit/out': ^2.0.37
       '@snickbit/utilities': ^3.2.0
-      jest: 28.1.3
-      ts-jest: 28.0.8
       tsup: 6.2.3
       typescript: 4.8.2
     dependencies:
       '@snickbit/out': 2.0.37
       '@snickbit/utilities': 3.2.1
     devDependencies:
-      jest: 28.1.3
-      ts-jest: 28.0.8_556mfp7b5dutuj2jcrj5i7zc5q
       tsup: 6.2.3_typescript@4.8.2
       typescript: 4.8.2
 
   packages/pinia-plugin-loading:
     specifiers:
       '@snickbit/utilities': ^3.2.0
-      jest: 28.1.3
-      ts-jest: 28.0.8
       tsup: 6.2.3
       typescript: 4.8.2
       vue: ^3.2.37
@@ -74,18 +64,14 @@ importers:
       '@snickbit/utilities': 3.2.1
       vue: 3.2.37
     devDependencies:
-      jest: 28.1.3
-      ts-jest: 28.0.8_556mfp7b5dutuj2jcrj5i7zc5q
       tsup: 6.2.3_typescript@4.8.2
       typescript: 4.8.2
 
   packages/pinia-plugin-persist:
     specifiers:
       '@snickbit/utilities': ^3.2.0
-      jest: 28.1.3
       localforage: ^1.10.0
       pinia: ^2.0.14
-      ts-jest: 28.0.8
       tsup: 6.2.3
       typescript: 4.8.2
       vue: 3.2.38
@@ -94,8 +80,6 @@ importers:
       localforage: 1.10.0
       pinia: 2.0.17_pj7ch6rmow6odq73xb5hfvge3q
     devDependencies:
-      jest: 28.1.3
-      ts-jest: 28.0.8_556mfp7b5dutuj2jcrj5i7zc5q
       tsup: 6.2.3_typescript@4.8.2
       typescript: 4.8.2
       vue: 3.2.38
@@ -6262,7 +6246,7 @@ packages:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
     dev: true
 
-  /ts-jest/28.0.8_556mfp7b5dutuj2jcrj5i7zc5q:
+  /ts-jest/28.0.8_c33nnit4udygqehd6spv4v4elu:
     resolution: {integrity: sha512-5FaG0lXmRPzApix8oFG8RKjAz4ehtm8yMKOTy5HX3fY6W8kmvOrmcY0hKDElW52FJov+clhUbrKAqofnj4mXTg==}
     engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
     hasBin: true
@@ -6283,39 +6267,7 @@ packages:
       esbuild:
         optional: true
     dependencies:
-      bs-logger: 0.2.6
-      fast-json-stable-stringify: 2.1.0
-      jest: 28.1.3
-      jest-util: 28.1.3
-      json5: 2.2.1
-      lodash.memoize: 4.1.2
-      make-error: 1.3.6
-      semver: 7.3.7
-      typescript: 4.8.2
-      yargs-parser: 21.0.1
-    dev: true
-
-  /ts-jest/28.0.8_sjejfvfeonwowk2gxhf27e7xsa:
-    resolution: {integrity: sha512-5FaG0lXmRPzApix8oFG8RKjAz4ehtm8yMKOTy5HX3fY6W8kmvOrmcY0hKDElW52FJov+clhUbrKAqofnj4mXTg==}
-    engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
-    hasBin: true
-    peerDependencies:
-      '@babel/core': '>=7.0.0-beta.0 <8'
-      '@jest/types': ^28.0.0
-      babel-jest: ^28.0.0
-      esbuild: '*'
-      jest: ^28.0.0
-      typescript: '>=4.3'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-      '@jest/types':
-        optional: true
-      babel-jest:
-        optional: true
-      esbuild:
-        optional: true
-    dependencies:
+      '@babel/core': 7.18.10
       bs-logger: 0.2.6
       esbuild: 0.15.5
       fast-json-stable-stringify: 2.1.0
