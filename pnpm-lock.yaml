@@ -34,11 +34,15 @@ importers:
     specifiers:
       debounce: ^1.2.1
       tsup: 6.2.3
+      typedoc: 0.23.12
+      typedoc-plugin-markdown: 3.13.5
       typescript: 4.8.2
     dependencies:
       debounce: 1.2.1
     devDependencies:
       tsup: 6.2.3_typescript@4.8.2
+      typedoc: 0.23.12_typescript@4.8.2
+      typedoc-plugin-markdown: 3.13.5_typedoc@0.23.12
       typescript: 4.8.2
 
   packages/pinia-plugin-init:
@@ -46,18 +50,24 @@ importers:
       '@snickbit/out': ^2.0.37
       '@snickbit/utilities': ^3.2.0
       tsup: 6.2.3
+      typedoc: 0.23.12
+      typedoc-plugin-markdown: 3.13.5
       typescript: 4.8.2
     dependencies:
       '@snickbit/out': 2.0.37
       '@snickbit/utilities': 3.2.1
     devDependencies:
       tsup: 6.2.3_typescript@4.8.2
+      typedoc: 0.23.12_typescript@4.8.2
+      typedoc-plugin-markdown: 3.13.5_typedoc@0.23.12
       typescript: 4.8.2
 
   packages/pinia-plugin-loading:
     specifiers:
       '@snickbit/utilities': ^3.2.0
       tsup: 6.2.3
+      typedoc: 0.23.12
+      typedoc-plugin-markdown: 3.13.5
       typescript: 4.8.2
       vue: ^3.2.37
     dependencies:
@@ -65,6 +75,8 @@ importers:
       vue: 3.2.37
     devDependencies:
       tsup: 6.2.3_typescript@4.8.2
+      typedoc: 0.23.12_typescript@4.8.2
+      typedoc-plugin-markdown: 3.13.5_typedoc@0.23.12
       typescript: 4.8.2
 
   packages/pinia-plugin-persist:
@@ -73,6 +85,8 @@ importers:
       localforage: ^1.10.0
       pinia: ^2.0.14
       tsup: 6.2.3
+      typedoc: 0.23.12
+      typedoc-plugin-markdown: 3.13.5
       typescript: 4.8.2
       vue: 3.2.38
     dependencies:
@@ -81,6 +95,8 @@ importers:
       pinia: 2.0.17_pj7ch6rmow6odq73xb5hfvge3q
     devDependencies:
       tsup: 6.2.3_typescript@4.8.2
+      typedoc: 0.23.12_typescript@4.8.2
+      typedoc-plugin-markdown: 3.13.5_typedoc@0.23.12
       typescript: 4.8.2
       vue: 3.2.38
 
@@ -4654,6 +4670,10 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
+  /lunr/2.3.9:
+    resolution: {integrity: sha512-zTU3DaZaF3Rt9rhN3uBMGQD3dD2/vFQqnvZCDv4dl5iOzq2IZQqTxu90r4E5J+nP70J3ilqVCrbho2eWaeW8Ow==}
+    dev: true
+
   /magic-string/0.25.9:
     resolution: {integrity: sha512-RmF0AsMzgt25qzqqLc1+MbHmhdx0ojF2Fvs4XnOqz2ZOBXzzkEwc/dJQZCYHAn7v1jbVOjAZfK8msRn4BxO4VQ==}
     dependencies:
@@ -4717,6 +4737,12 @@ packages:
   /map-obj/4.3.0:
     resolution: {integrity: sha512-hdN1wVrZbb29eBGiGjJbeP8JbKjq1urkHJ/LIP/NY48MZ1QVXUsQBV1G1zvYFHn1XE06cwjBsOI2K3Ulnj1YXQ==}
     engines: {node: '>=8'}
+    dev: true
+
+  /marked/4.1.0:
+    resolution: {integrity: sha512-+Z6KDjSPa6/723PQYyc1axYZpYYpDnECDaU6hkaf5gqBieBkMKYReL5hteF2QizhlMbgbo8umXl/clZ67+GlsA==}
+    engines: {node: '>= 12'}
+    hasBin: true
     dev: true
 
   /meow/8.1.2:
@@ -5854,6 +5880,14 @@ packages:
       rechoir: 0.6.2
     dev: true
 
+  /shiki/0.11.1:
+    resolution: {integrity: sha512-EugY9VASFuDqOexOgXR18ZV+TbFrQHeCpEYaXamO+SZlsnT/2LxuLBX25GGtIrwaEVFXUAbUQ601SWE2rMwWHA==}
+    dependencies:
+      jsonc-parser: 3.1.0
+      vscode-oniguruma: 1.6.2
+      vscode-textmate: 6.0.0
+    dev: true
+
   /shx/0.3.4:
     resolution: {integrity: sha512-N6A9MLVqjxZYcVn8hLmtneQWIJtp8IKzMP4eMnx+nqkvXoqinUPCbUFLp2UcWTEIUONhlk0ewxr/jaVGlc+J+g==}
     engines: {node: '>=6'}
@@ -6520,6 +6554,29 @@ packages:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
     dev: true
 
+  /typedoc-plugin-markdown/3.13.5_typedoc@0.23.12:
+    resolution: {integrity: sha512-E6bSn96MtiWTU4fr9wddD7d2T91XTtONj4Jdx2TZsjdAg/ig4ft2ECet/rNbBOiyw9MC0VO9toC/yvI8ZcY2PQ==}
+    peerDependencies:
+      typedoc: '>=0.23.0'
+    dependencies:
+      handlebars: 4.7.7
+      typedoc: 0.23.12_typescript@4.8.2
+    dev: true
+
+  /typedoc/0.23.12_typescript@4.8.2:
+    resolution: {integrity: sha512-wr7r/ufgGSsw2ntKTkLDJA7a+0hDdk2oRPouJGd9lwpFj305ZV6gjUwVxncp3ZuD92iKpc+kqsl5ag109rvkmA==}
+    engines: {node: '>= 14.14'}
+    hasBin: true
+    peerDependencies:
+      typescript: 4.6.x || 4.7.x || 4.8.x
+    dependencies:
+      lunr: 2.3.9
+      marked: 4.1.0
+      minimatch: 5.1.0
+      shiki: 0.11.1
+      typescript: 4.8.2
+    dev: true
+
   /typescript/4.8.2:
     resolution: {integrity: sha512-C0I1UsrrDHo2fYI5oaCGbSejwX4ch+9Y5jTQELvovfmFkK3HHSZJB8MSJcWLmCUBzQBchCrZ9rMRV6GuNrvGtw==}
     engines: {node: '>=4.2.0'}
@@ -6633,6 +6690,14 @@ packages:
 
   /vscode-nls/5.0.1:
     resolution: {integrity: sha512-hHQV6iig+M21lTdItKPkJAaWrxALQb/nqpVffakO4knJOh3DrU2SXOMzUzNgo1eADPzu3qSsJY1weCzvR52q9A==}
+    dev: true
+
+  /vscode-oniguruma/1.6.2:
+    resolution: {integrity: sha512-KH8+KKov5eS/9WhofZR8M8dMHWN2gTxjMsG4jd04YhpbPR91fUj7rYQ2/XjeHCJWbg7X++ApRIU9NUwM2vTvLA==}
+    dev: true
+
+  /vscode-textmate/6.0.0:
+    resolution: {integrity: sha512-gu73tuZfJgu+mvCSy4UZwd2JXykjK9zAZsfmDeut5dx/1a7FeTk0XwJsSuqQn+cuMCGVbIBfl+s53X4T19DnzQ==}
     dev: true
 
   /vscode-uri/3.0.3:
