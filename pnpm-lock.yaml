@@ -4,7 +4,7 @@ importers:
 
   .:
     specifiers:
-      '@lerna-lite/cli': 1.11.1
+      '@lerna-lite/cli': 1.11.2
       '@snickbit/eslint-config': 1.3.2
       '@snickbit/readmes': 0.0.2
       '@types/jest': 28.1.8
@@ -17,7 +17,7 @@ importers:
       turbo: 1.4.3
       typescript: 4.7.4
     devDependencies:
-      '@lerna-lite/cli': 1.11.1
+      '@lerna-lite/cli': 1.11.2
       '@snickbit/eslint-config': 1.3.2_5mtwcutbsi3uflteaosuczcaoe
       '@snickbit/readmes': 0.0.2
       '@types/jest': 28.1.8
@@ -26,7 +26,7 @@ importers:
       eslint: 8.22.0
       jest: 28.1.3
       shx: 0.3.4
-      ts-jest: 28.0.8_u4nqbvvkpmo3si3ne46plvlwbe
+      ts-jest: 28.0.8_xc5h655djrkql4osj75yosjpya
       turbo: 1.4.3
       typescript: 4.7.4
 
@@ -41,7 +41,7 @@ importers:
       debounce: 1.2.1
     devDependencies:
       jest: 28.1.3
-      ts-jest: 28.0.8_xc5h655djrkql4osj75yosjpya
+      ts-jest: 28.0.8_bi2kohzqnxavgozw3csgny5hju
       tsup: 6.2.3_typescript@4.7.4
       typescript: 4.7.4
 
@@ -757,17 +757,17 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@lerna-lite/cli/1.11.1:
-    resolution: {integrity: sha512-gzu+OkTMOAaTKW7KZKLo/1mQ1yNgAnAn8vizwVumomFVUkLpBc5fnrtoL+sD1ExTM+GoDP4U7ZwQxA9KjEGH4Q==}
+  /@lerna-lite/cli/1.11.2:
+    resolution: {integrity: sha512-hz18M+yyEDlJmJoTDN3Lxej9TkHGDwMk+xMjzTCj7QbXKLEwXDhif3mMyJCSe23+nBHDV0d7uOm6mkAYw8/j+A==}
     engines: {node: '>=14.15.0', npm: '>=8.0.0'}
     hasBin: true
     dependencies:
-      '@lerna-lite/core': 1.11.1
-      '@lerna-lite/info': 1.11.1
-      '@lerna-lite/init': 1.11.1
-      '@lerna-lite/listable': 1.11.1
-      '@lerna-lite/publish': 1.11.1
-      '@lerna-lite/version': 1.11.1
+      '@lerna-lite/core': 1.11.2
+      '@lerna-lite/info': 1.11.2
+      '@lerna-lite/init': 1.11.2
+      '@lerna-lite/listable': 1.11.2
+      '@lerna-lite/publish': 1.11.2
+      '@lerna-lite/version': 1.11.2
       dedent: 0.7.0
       dotenv: 16.0.1
       import-local: 3.1.0
@@ -781,8 +781,8 @@ packages:
       - supports-color
     dev: true
 
-  /@lerna-lite/core/1.11.1:
-    resolution: {integrity: sha512-wquCKOH0CsmRgcjvZ6BbnM6fuJ8WBSF0dzDn5PdcKMVhDL7D4lbaWLwsrI4G6X1XEpkm8RFQSgMtJx3OwE7H1w==}
+  /@lerna-lite/core/1.11.2:
+    resolution: {integrity: sha512-kyecCQclc6VhX+9JsTCsntSaN6veLVP1Yk7FvInP2xuUtQo8nC412iEaG2WDcgb9nuEM9reAE/qnsIbZ5mRwFw==}
     engines: {node: '>=14.15.0', npm: '>=8.0.0'}
     dependencies:
       os: 0.1.2
@@ -845,11 +845,11 @@ packages:
       - supports-color
     dev: true
 
-  /@lerna-lite/info/1.11.1:
-    resolution: {integrity: sha512-o+vWt0Rb4e6rj0Uvn+r5OYaLqZQVavKcFRgr1ssbpWPt6KvfBlwfxDBuIpqmf0d0qZqAJWZx0QOepbvnj9wn9g==}
+  /@lerna-lite/info/1.11.2:
+    resolution: {integrity: sha512-MkwpYFhn5uPL4z1YJzY9/3JpN+RKzLtB/HoLhwLGVYiG/q19XQUboeCIJWKdRFdjxeZ1f1R3euC57PtA5reDEw==}
     engines: {node: '>=14.15.0', npm: '>=8.0.0'}
     dependencies:
-      '@lerna-lite/core': 1.11.1
+      '@lerna-lite/core': 1.11.2
       dedent: 0.7.0
       envinfo: 7.8.1
       yargs: 17.5.1
@@ -859,11 +859,11 @@ packages:
       - supports-color
     dev: true
 
-  /@lerna-lite/init/1.11.1:
-    resolution: {integrity: sha512-F8E7DG76hBG4QXYV2Aw/Tkz4C9WKW2UWxul6JOGI5dAUYNx6AYwLQAuEkCuOwIsryLYKQxLQ4Ocuh+zz8wOm0Q==}
+  /@lerna-lite/init/1.11.2:
+    resolution: {integrity: sha512-qnoBuBMyTmqdw8+tL/r5yuqxFUnebDkrqUj5zgCZzR2b83lNSGM1c1eu2WlhxJovICjgLztNUCiPuZJdsS7E2Q==}
     engines: {node: '>=14.15.0', npm: '>=8.0.0'}
     dependencies:
-      '@lerna-lite/core': 1.11.1
+      '@lerna-lite/core': 1.11.2
       fs-extra: 10.1.0
       p-map: 4.0.0
       write-json-file: 4.3.0
@@ -873,11 +873,11 @@ packages:
       - supports-color
     dev: true
 
-  /@lerna-lite/listable/1.11.1:
-    resolution: {integrity: sha512-SNUdVe5MSuI97NL4erwP6Yh0ptlidGb/7p7y8uHeDrDwy7pJMu7fs3aGc8G5SxN8c8XmwqBXur1g9hwO0vi5KQ==}
+  /@lerna-lite/listable/1.11.2:
+    resolution: {integrity: sha512-GuvCgcJOthOlQWPSGTjS1oNDgG96ZIQlRpK+XNl4ZNNA2sapnrCFvJMZUHiDtLtQO5moe4Kt1FDWzbEr18bCRQ==}
     engines: {node: '>=14.15.0', npm: '>=8.0.0'}
     dependencies:
-      '@lerna-lite/core': 1.11.1
+      '@lerna-lite/core': 1.11.2
       chalk: 4.1.2
       columnify: 1.6.0
     transitivePeerDependencies:
@@ -886,13 +886,13 @@ packages:
       - supports-color
     dev: true
 
-  /@lerna-lite/publish/1.11.1:
-    resolution: {integrity: sha512-1iC201Kyy6JVlf13AP4KgiOz/19Vh65/OYZlUDGysPIKI7zqeT5NII8qlFA/S0dO13X+b2GOYZBnoUMGYCyP9g==}
+  /@lerna-lite/publish/1.11.2:
+    resolution: {integrity: sha512-TUOX5yMwYzVl28Q+pk8lAALt+9e4vBflo8T3fgU6bYfe3ON33InKs+QdkjbzqiAHU0fena8XVbsv579uhK1jLw==}
     engines: {node: '>=14.15.0', npm: '>=8.0.0'}
     dependencies:
       os: 0.1.2
-      '@lerna-lite/core': 1.11.1
-      '@lerna-lite/version': 1.11.1
+      '@lerna-lite/core': 1.11.2
+      '@lerna-lite/version': 1.11.2
       byte-size: 7.0.1
       columnify: 1.6.0
       fs-extra: 10.1.0
@@ -925,12 +925,12 @@ packages:
       - supports-color
     dev: true
 
-  /@lerna-lite/version/1.11.1:
-    resolution: {integrity: sha512-osPh2wEYcvN9SzkUaF01vy6MbHW+U1AIHfxVphMLwC2hbXMOdnVAvPvyAHfCka9mV1YtIWiBfADZyYyXzIlr7g==}
+  /@lerna-lite/version/1.11.2:
+    resolution: {integrity: sha512-Iz4jHlBfu1k19M3kUkYdAsfhJqUIxHeVyVg3nk+/zooS7nysy7lg9Okc/Lte0ODC1xLJmeWWWuWErw4QsnrAQQ==}
     engines: {node: '>=14.15.0', npm: '>=8.0.0'}
     dependencies:
       os: 0.1.2
-      '@lerna-lite/core': 1.11.1
+      '@lerna-lite/core': 1.11.2
       chalk: 4.1.2
       dedent: 0.7.0
       load-json-file: 6.2.0
@@ -6207,41 +6207,6 @@ packages:
         optional: true
     dependencies:
       bs-logger: 0.2.6
-      fast-json-stable-stringify: 2.1.0
-      jest: 28.1.3
-      jest-util: 28.1.3
-      json5: 2.2.1
-      lodash.memoize: 4.1.2
-      make-error: 1.3.6
-      semver: 7.3.7
-      typescript: 4.7.4
-      yargs-parser: 21.0.1
-    dev: true
-
-  /ts-jest/28.0.8_u4nqbvvkpmo3si3ne46plvlwbe:
-    resolution: {integrity: sha512-5FaG0lXmRPzApix8oFG8RKjAz4ehtm8yMKOTy5HX3fY6W8kmvOrmcY0hKDElW52FJov+clhUbrKAqofnj4mXTg==}
-    engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
-    hasBin: true
-    peerDependencies:
-      '@babel/core': '>=7.0.0-beta.0 <8'
-      '@jest/types': ^28.0.0
-      babel-jest: ^28.0.0
-      esbuild: '*'
-      jest: ^28.0.0
-      typescript: '>=4.3'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-      '@jest/types':
-        optional: true
-      babel-jest:
-        optional: true
-      esbuild:
-        optional: true
-    dependencies:
-      '@babel/core': 7.18.10
-      bs-logger: 0.2.6
-      esbuild: 0.15.5
       fast-json-stable-stringify: 2.1.0
       jest: 28.1.3
       jest-util: 28.1.3
