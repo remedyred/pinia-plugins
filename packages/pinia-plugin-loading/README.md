@@ -18,13 +18,12 @@ npm add @snickbit/pinia-plugin-loading
 
 ## Documentation
 
-### [API Docs](./docs/README.md)
+### [API Docs](https://github.com/snickbit/pinia/blob/main/packages/pinia-plugin-loading/README.md)
 
-### [CHANGELOG](CHANGELOG.md)
+### [CHANGELOG](https://github.com/snickbit/pinia/blob/main/packages/pinia-plugin-loading/CHANGELOG.md)
 
 ## License
 
 Copyright (c) 2022 - **Nicholas Lowe** aka **Snickbit**
 
-[MIT License](../../LICENSE)
-
+[MIT License](https://github.com/snickbit/pinia/blob/main/LICENSE)

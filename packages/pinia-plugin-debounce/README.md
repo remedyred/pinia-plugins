@@ -18,13 +18,12 @@ npm add @snickbit/pinia-plugin-debounce
 
 ## Documentation
 
-### [API Docs](./docs/README.md)
+### [API Docs](https://github.com/snickbit/pinia/blob/main/packages/pinia-plugin-debounce/README.md)
 
-### [CHANGELOG](CHANGELOG.md)
+### [CHANGELOG](https://github.com/snickbit/pinia/blob/main/packages/pinia-plugin-debounce/CHANGELOG.md)
 
 ## License
 
 Copyright (c) 2022 - **Nicholas Lowe** aka **Snickbit**
 
-[MIT License](../../LICENSE)
-
+[MIT License](https://github.com/snickbit/pinia/blob/main/LICENSE)
