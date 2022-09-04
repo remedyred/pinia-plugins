@@ -1,0 +1,11 @@
+{
+	"specials": [
+		"bin"
+	],
+	"ignores": [
+		"typedoc",
+		"typedoc-plugin-markdown"
+	],
+	"oneline": true,
+	"ignore-bin-package": true
+}

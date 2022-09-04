@@ -15,39 +15,30 @@
 		"dist"
 	],
 	"scripts": {
-		"build": "tsup",
-		"clean": "shx rm -rf dist",
+		"build": "tsup --minify --dts",
+		"clean": "shx rm -rf ./dist ./.types",
 		"depcheck": "depcheck",
-		"dev": "pnpm run build --sourcemap",
-		"prod": "pnpm run build --minify",
-		"test": "jest",
+		"dev": "tsup",
+		"docs": "typedoc src/index.ts --tsconfig ./tsconfig.typedoc.json",
+		"release": "semantic-release",
 		"watch": "pnpm run dev --watch"
 	},
-	"jest": {
-		"preset": "ts-jest",
-		"testEnvironment": "node"
+	"release": {
+		"extends": [
+			"semantic-release-monorepo",
+			"@snickbit/semantic-release"
+		]
 	},
 	"dependencies": {
 		"debounce": "^1.2.1"
 	},
 	"devDependencies": {
-		"jest": "28.1.3",
-		"ts-jest": "28.0.8",
 		"tsup": "6.2.3",
+		"typedoc": "0.23.12",
+		"typedoc-plugin-markdown": "3.13.5",
 		"typescript": "4.8.2"
 	},
 	"engines": {
 		"node": ">= 12"
-	},
-	"tsup": {
-		"entry": [
-			"src/index.ts"
-		],
-		"clean": true,
-		"dts": true,
-		"format": [
-			"esm",
-			"cjs"
-		]
 	}
 }

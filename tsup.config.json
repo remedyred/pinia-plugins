@@ -1,0 +1,10 @@
+{
+	"entry": [
+		"src/index.ts"
+	],
+	"clean": true,
+	"format": [
+		"esm",
+		"cjs"
+	]
+}
