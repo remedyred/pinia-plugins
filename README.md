@@ -71,6 +71,6 @@ Pinia plugin to persist state using LocalForage
 
 ## License
 
-Copyright (c) 2022
+Copyright (c) 2022 Nicholas Lowe
 
 [MIT License](https://github.com/snickbit/snickbit.js/blob/main/LICENSE)
