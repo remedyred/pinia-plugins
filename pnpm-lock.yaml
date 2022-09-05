@@ -840,8 +840,8 @@ packages:
       - supports-color
     dev: true
 
-  /@snickbit/ansi/0.0.12:
-    resolution: {integrity: sha512-EVnUGT1CyHU0OOHfn13hLO9+m0Ou2aTYZ2wCLLb0zgzxV/F7zgavAledWxVptcIwIlk0AxqWfrgieBlmsAfr9Q==}
+  /@snickbit/ansi/0.0.13:
+    resolution: {integrity: sha512-6luJMgt9Pz66oEeJeq0op5MrE//n/toS3zpJ1S6kZzxpXfkFjaRnnOBhqisQyvMd3K8vjHzITvHy2D0BRwOzBw==}
     engines: {node: '>= 12'}
 
   /@snickbit/cycle/0.0.29:
@@ -926,7 +926,7 @@ packages:
     resolution: {integrity: sha512-fTVcE5QKVSNKMddUVqwXGsc5jx87L8sKm6ufA1z/02ygibz/pCGqmDI5lQZsv7qIFwm+9h0r3ydk59RCf7gw8Q==}
     engines: {node: '>= 12'}
     dependencies:
-      '@snickbit/ansi': 0.0.12
+      '@snickbit/ansi': 0.0.13
       '@snickbit/cycle': 0.0.29
       '@snickbit/utilities': 3.4.4
       ansi-styles-template: 1.0.0
@@ -939,7 +939,7 @@ packages:
     resolution: {integrity: sha512-iEI2vveTraYiRLyxjRPX5wNJv2AjuFOf+goEA3z7pc/FNSpNz/r+fvggVXp3SOnSzzsfXntz6Wb2/rfuvUwMWQ==}
     engines: {node: '>= 12'}
     dependencies:
-      '@snickbit/ansi': 0.0.12
+      '@snickbit/ansi': 0.0.13
       '@snickbit/cycle': 1.0.3
       '@snickbit/utilities': 3.4.4
       ansi-styles-template: 1.0.0
