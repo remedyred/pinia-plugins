@@ -39,7 +39,7 @@
 		"typedoc": "0.23.14",
 		"typedoc-plugin-markdown": "3.13.6",
 		"typescript": "4.8.2",
-		"vue": "3.2.38"
+		"vue": "3.2.39"
 	},
 	"engines": {
 		"node": ">= 12"
