@@ -1,6 +1,6 @@
 {
 	"name": "@snickbit/pinia-plugin-init",
-	"version": "1.0.25",
+	"version": "1.0.26",
 	"description": "Pinia plugin for running an action when the store is initialized",
 	"license": "MIT",
 	"exports": {
