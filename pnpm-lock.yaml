@@ -34,15 +34,15 @@ importers:
     specifiers:
       debounce: ^1.2.1
       tsup: 6.2.3
-      typedoc: 0.23.14
+      typedoc: 0.23.15
       typedoc-plugin-markdown: 3.13.6
       typescript: 4.8.3
     dependencies:
       debounce: 1.2.1
     devDependencies:
       tsup: 6.2.3_typescript@4.8.3
-      typedoc: 0.23.14_typescript@4.8.3
-      typedoc-plugin-markdown: 3.13.6_typedoc@0.23.14
+      typedoc: 0.23.15_typescript@4.8.3
+      typedoc-plugin-markdown: 3.13.6_typedoc@0.23.15
       typescript: 4.8.3
 
   packages/pinia-plugin-init:
@@ -50,7 +50,7 @@ importers:
       '@snickbit/out': ^2.0.37
       '@snickbit/utilities': ^3.2.0
       tsup: 6.2.3
-      typedoc: 0.23.14
+      typedoc: 0.23.15
       typedoc-plugin-markdown: 3.13.6
       typescript: 4.8.3
     dependencies:
@@ -58,15 +58,15 @@ importers:
       '@snickbit/utilities': 3.4.9
     devDependencies:
       tsup: 6.2.3_typescript@4.8.3
-      typedoc: 0.23.14_typescript@4.8.3
-      typedoc-plugin-markdown: 3.13.6_typedoc@0.23.14
+      typedoc: 0.23.15_typescript@4.8.3
+      typedoc-plugin-markdown: 3.13.6_typedoc@0.23.15
       typescript: 4.8.3
 
   packages/pinia-plugin-loading:
     specifiers:
       '@snickbit/utilities': ^3.2.0
       tsup: 6.2.3
-      typedoc: 0.23.14
+      typedoc: 0.23.15
       typedoc-plugin-markdown: 3.13.6
       typescript: 4.8.3
       vue: ^3.2.37
@@ -75,8 +75,8 @@ importers:
       vue: 3.2.39
     devDependencies:
       tsup: 6.2.3_typescript@4.8.3
-      typedoc: 0.23.14_typescript@4.8.3
-      typedoc-plugin-markdown: 3.13.6_typedoc@0.23.14
+      typedoc: 0.23.15_typescript@4.8.3
+      typedoc-plugin-markdown: 3.13.6_typedoc@0.23.15
       typescript: 4.8.3
 
   packages/pinia-plugin-persist:
@@ -85,7 +85,7 @@ importers:
       localforage: ^1.10.0
       pinia: ^2.0.14
       tsup: 6.2.3
-      typedoc: 0.23.14
+      typedoc: 0.23.15
       typedoc-plugin-markdown: 3.13.6
       typescript: 4.8.3
       vue: 3.2.39
@@ -95,8 +95,8 @@ importers:
       pinia: 2.0.22_arz4dztosvwy2ghjrlh2wdhejm
     devDependencies:
       tsup: 6.2.3_typescript@4.8.3
-      typedoc: 0.23.14_typescript@4.8.3
-      typedoc-plugin-markdown: 3.13.6_typedoc@0.23.14
+      typedoc: 0.23.15_typescript@4.8.3
+      typedoc-plugin-markdown: 3.13.6_typedoc@0.23.15
       typescript: 4.8.3
       vue: 3.2.39
 
@@ -6052,17 +6052,17 @@ packages:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
     dev: true
 
-  /typedoc-plugin-markdown/3.13.6_typedoc@0.23.14:
+  /typedoc-plugin-markdown/3.13.6_typedoc@0.23.15:
     resolution: {integrity: sha512-ISSc9v3BK7HkokxSBuJPttXox4tJ6hP0N9wfSIk0fmLN67+eqtAxbk97gs2nDiuha+RTO5eW9gdeAb+RPP0mgg==}
     peerDependencies:
       typedoc: '>=0.23.0'
     dependencies:
       handlebars: 4.7.7
-      typedoc: 0.23.14_typescript@4.8.3
+      typedoc: 0.23.15_typescript@4.8.3
     dev: true
 
-  /typedoc/0.23.14_typescript@4.8.3:
-    resolution: {integrity: sha512-s2I+ZKBET38EctZvbXp2GooHrNaKjWZkrwGEK/sttnOGiKJqU0vHrsdcwLgKZGuo2aedNL3RRPj1LnAAeYscig==}
+  /typedoc/0.23.15_typescript@4.8.3:
+    resolution: {integrity: sha512-x9Zu+tTnwxb9YdVr+zvX7LYzyBl1nieOr6lrSHbHsA22/RJK2m4Y525WIg5Mj4jWCmfL47v6f4hUzY7EIuwS5w==}
     engines: {node: '>= 14.14'}
     hasBin: true
     peerDependencies:
