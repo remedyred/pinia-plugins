@@ -6,7 +6,7 @@ importers:
     specifiers:
       '@lerna-lite/cli': 1.11.3
       '@snickbit/eslint-config': 1.3.4
-      '@snickbit/readmes': 0.0.13
+      '@snickbit/readmes': 0.0.14
       '@snickbit/semantic-release': ^1.5.3
       depcheck: 1.4.3
       esbuild: 0.15.5
@@ -19,7 +19,7 @@ importers:
     devDependencies:
       '@lerna-lite/cli': 1.11.3
       '@snickbit/eslint-config': 1.3.4_7ilbxdl5iguzcjriqqcg2m5cku
-      '@snickbit/readmes': 0.0.13
+      '@snickbit/readmes': 0.0.14
       '@snickbit/semantic-release': 1.5.3_semantic-release@19.0.5
       depcheck: 1.4.3
       esbuild: 0.15.5
@@ -940,8 +940,8 @@ packages:
     resolution: {integrity: sha512-qIBAHsP0+tYTPj/aDF1wZRVWfW4YcsS12INoyO+UonEthNmxQozlM/0Bp2P/XYYrsx4ag0Psv53hN4PzrMcwjA==}
     engines: {node: '>= 12'}
 
-  /@snickbit/readmes/0.0.13:
-    resolution: {integrity: sha512-gXUj1sEm563KE39TtYDuMvZkDhHAyl4opvYvzKckJFlcLsrrEOSdNiGbPb/O0ycdt/gahsJNu+i+egWGGPMQMA==}
+  /@snickbit/readmes/0.0.14:
+    resolution: {integrity: sha512-/5c9hEQnQKrvR6qWJ1NNscaYDPtOpVwRGQHkFuWNaPUFRbKdNG4Me7NjQT/ZD03mr9beeBuVLjFZLHK7bFAWEA==}
     engines: {node: '>= 12'}
     hasBin: true
     dependencies:
