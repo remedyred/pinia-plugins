@@ -5,7 +5,7 @@ importers:
   .:
     specifiers:
       '@lerna-lite/cli': 1.11.3
-      '@snickbit/eslint-config': 1.3.4
+      '@snickbit/eslint-config': 1.3.5
       '@snickbit/readmes': 0.0.14
       '@snickbit/semantic-release': ^1.5.3
       depcheck: 1.4.3
@@ -18,7 +18,7 @@ importers:
       typescript: 4.8.3
     devDependencies:
       '@lerna-lite/cli': 1.11.3
-      '@snickbit/eslint-config': 1.3.4_7ilbxdl5iguzcjriqqcg2m5cku
+      '@snickbit/eslint-config': 1.3.5_7ilbxdl5iguzcjriqqcg2m5cku
       '@snickbit/readmes': 0.0.14
       '@snickbit/semantic-release': 1.5.3_semantic-release@19.0.5
       depcheck: 1.4.3
@@ -855,8 +855,8 @@ packages:
     dependencies:
       '@snickbit/utilities': 3.4.9
 
-  /@snickbit/eslint-config/1.3.4_7ilbxdl5iguzcjriqqcg2m5cku:
-    resolution: {integrity: sha512-rgV1f+7SI0xhIUuU3xau7FlE/JYgTppxMUc8iZKBIvPx17GO9fEYeD6s1q9Cq22kyMfF0TN+Jc7fTXOcobhh3Q==}
+  /@snickbit/eslint-config/1.3.5_7ilbxdl5iguzcjriqqcg2m5cku:
+    resolution: {integrity: sha512-0SxDTJun7tLsY+UZmd+vm0P9QRo2PjDQJNEhPYWEvby+Gu7ZxP5XlfZq0KTGoLza7ci/RUMdP9H1bbJSgJVxtg==}
     engines: {node: '>= 12'}
     peerDependencies:
       eslint: '>= 8.19.0'
