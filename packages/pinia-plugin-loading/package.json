@@ -1,6 +1,6 @@
 {
 	"name": "@snickbit/pinia-plugin-loading",
-	"version": "1.0.29",
+	"version": "1.0.30",
 	"description": "Pinia plugin to track loading state of all asynchronous actions",
 	"license": "MIT",
 	"exports": {
