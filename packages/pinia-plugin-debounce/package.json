@@ -1,6 +1,6 @@
 {
 	"name": "@snickbit/pinia-plugin-debounce",
-	"version": "1.0.22",
+	"version": "1.0.23",
 	"description": "Pinia plugin for debouncing actions",
 	"license": "MIT",
 	"exports": {
