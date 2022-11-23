@@ -17,7 +17,7 @@
 		"release:ci": "turbo run release --concurrency=1"
 	},
 	"devDependencies": {
-		"@lerna-lite/cli": "1.11.3",
+		"@lerna-lite/cli": "1.13.0",
 		"@snickbit/eslint-config": "1.4.1",
 		"@snickbit/readmes": "0.0.23",
 		"@snickbit/semantic-release": "^1.5.3",
