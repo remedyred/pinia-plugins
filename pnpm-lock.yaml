@@ -6,7 +6,7 @@ importers:
     specifiers:
       '@lerna-lite/cli': 1.11.3
       '@snickbit/eslint-config': 1.3.7
-      '@snickbit/readmes': 0.0.20
+      '@snickbit/readmes': 0.0.23
       '@snickbit/semantic-release': ^1.5.3
       depcheck: 1.4.3
       esbuild: 0.15.5
@@ -19,7 +19,7 @@ importers:
     devDependencies:
       '@lerna-lite/cli': 1.11.3
       '@snickbit/eslint-config': 1.3.7_ypn2ylkkyfa5i233caldtndbqa
-      '@snickbit/readmes': 0.0.20
+      '@snickbit/readmes': 0.0.23
       '@snickbit/semantic-release': 1.5.5_semantic-release@19.0.5
       depcheck: 1.4.3
       esbuild: 0.15.5
@@ -890,12 +890,12 @@ packages:
       - typescript
     dev: true
 
-  /@snickbit/node-cli/3.0.22:
-    resolution: {integrity: sha512-I/CcIMVhp+5e0mTHR5gM4+ms7ckoAfMlBOnzsWgcanVK9ylIQDQC1jngLgYGlpGfZrA+wC9B04zZQ9gjpAwKwQ==}
+  /@snickbit/node-cli/3.0.24:
+    resolution: {integrity: sha512-8JuelOjc0rheep3qJmwhB0SMs3NRhDa9hADVv53WaBLdtRVCaKL1nbwgIb26Bkvo9c8/sn76A74dcZ8hWYIPTw==}
     engines: {node: '>= 12'}
     dependencies:
       '@snickbit/node-utilities': 4.4.9
-      '@snickbit/out': 2.0.40
+      '@snickbit/out': 2.0.45
       '@snickbit/utilities': 3.4.2
       lilconfig: 2.0.6
       yargs-parser: 21.1.1
@@ -913,19 +913,6 @@ packages:
       lodash.throttle: 4.1.1
       nanospinner: 1.1.0
       prompts: 2.4.2
-    dev: true
-
-  /@snickbit/out/2.0.40:
-    resolution: {integrity: sha512-syS69rIaTCQUmIFwJVYyGh+ADnyMin1HpB4dgsG7HodX52YYLP+y7RwnbC2cjmqXoyDjYTA4sm0Bss+JuoJJLA==}
-    engines: {node: '>= 12'}
-    dependencies:
-      '@snickbit/ansi': 0.0.21
-      '@snickbit/cycle': 1.0.7
-      '@snickbit/utilities': 3.4.13
-      ansi-styles-template: 1.0.0
-      browser-or-node: 2.0.0
-      node-inspect-extracted: 1.1.0
-      picomatch-browser: 2.2.6
     dev: true
 
   /@snickbit/out/2.0.45:
@@ -949,12 +936,12 @@ packages:
     resolution: {integrity: sha512-F8nlHKito8NFfM06T/oUePBPcEOcsLgPtB9HFfMD9M57wArgjLBGu7D8WyzWWn0RhGWL3q/Bl/AWHCaekS/Bmg==}
     engines: {node: '>= 12'}
 
-  /@snickbit/readmes/0.0.20:
-    resolution: {integrity: sha512-Z2LD7xKhV4ZEzfmQ45u3I0rlCb4E3QjM931yo1LWuqbAhgQz/4f0B+H2qaKJa8mCtLUbhgKiLRhZwJBbGLPCmw==}
+  /@snickbit/readmes/0.0.23:
+    resolution: {integrity: sha512-yBEVXUuqbm7PFUlGYdRWeMhfj6K2ekf4RgxMaTTNGaR40A4eE/kC0ywjGbgjMZgq7wXtwmDvtdIZ6AEmtCdLxw==}
     engines: {node: '>= 12'}
     hasBin: true
     dependencies:
-      '@snickbit/node-cli': 3.0.22
+      '@snickbit/node-cli': 3.0.24
       '@snickbit/node-utilities': 4.4.9
       '@snickbit/out': 2.0.45
       '@snickbit/upwords': 2.0.25
