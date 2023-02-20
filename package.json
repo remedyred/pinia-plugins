@@ -18,7 +18,7 @@
 	},
 	"devDependencies": {
 		"@lerna-lite/cli": "1.15.1",
-		"@snickbit/eslint-config": "1.4.3",
+		"@snickbit/eslint-config": "1.4.4",
 		"@snickbit/readmes": "0.0.23",
 		"@snickbit/semantic-release": "^1.5.3",
 		"depcheck": "1.4.3",
