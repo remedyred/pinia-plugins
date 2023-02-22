@@ -27,7 +27,7 @@
 		"semantic-release": "^20.0.0",
 		"semantic-release-monorepo": "^7.0.5",
 		"shx": "0.3.4",
-		"turbo": "1.8.1",
+		"turbo": "1.8.2",
 		"typescript": "4.9.5"
 	},
 	"engines": {
